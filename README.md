@@ -118,7 +118,7 @@ xxxxx.yyyyy.zzzzz
 
 ## References
 
--   [Santri Koding - Laravel JWT Series](https://santrikoding.com/apa-itu-jwt)
+-   [Santri Koding - Laravel JWT Series](https://santrikoding.com/tutorial-set/laravel-jwt)
 -   [JWT.io](https://jwt.io/)
 
 ---
