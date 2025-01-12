@@ -26,3 +26,9 @@ Route::post('/login', App\Http\Controllers\Api\LoginController::class)->name('lo
 Route::middleware('auth:api')->get('/user', function (Request $request) { // add middleware auth:api, to protect route, only authenticated user can access this route
   return $request->user();
 });
+
+/**
+ * route "/logout"
+ * @method "POST"
+ */
+Route::post('/logout', App\Http\Controllers\Api\LogoutController::class)->name('logout'); // new route for logout user using method POST
