@@ -20,6 +20,12 @@ Route::post('/register', App\Http\Controllers\Api\RegisterController::class)->na
 Route::post('/login', App\Http\Controllers\Api\LoginController::class)->name('login'); // new route for login user using method POST
 
 /**
+ * route "/profile"
+ * @method "GET"
+ */
+Route::get('/profile', App\Http\Controllers\Api\ProfileController::class)->name('profile'); // new route for profile user using method GET
+
+/**
  * route "/user"
  * @method "GET"
  */
